@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>CJJG_IG_P10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="text" id="espere"></div>
+    <a class="text" id="descarga">Captura</a>
+    <div class="container">
+        <h1>Cosas hechas en MapaOSM</h1>
+        <div class="parrafo">
+            <ul>
+                <li>
+                    <span class="verde">Líneas verdes</span>: Peatonal
+                </li>
+                <li>
+                    <span class="naranja">Esferas naranjas</span>: Semáforos<br/> (faltan muchos semáforos en general)
+                </li>
+                <li>
+                    <span class="rosa">Edificios rosas</span>: Edificios de Ocio
+                </li>
+                <li>
+                    <span class="blanco">Puntos blancos</span>: Pasos de peatones
+                </li>
+            </ul>
+        </div>
+        <h1>Cosas hechas en Mapa Sitycletas</h1>
+        <div class="parrafo">
+            <ul>
+                <li>
+                    Se hizo un Map de la forma<br/> <code>map = {nombre_parada, [latitud, longitud]}</code>
+                </li>
+                <li>
+                    Se añadió una conexión desde-hacia teniendo en cuenta la ubicación de las <b>Sitycletas</b>.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- problemas con OrbitControls-->
+    <script src="https://threejs.org/build/three.js"></script>
+    <!-- <script src="dat.gui.js"></script> -->
+    <script src="https://threejs.org/examples/js/controls/OrbitControls.js"></script>
+    <script src="./Scripts/script_44_mapa.js"></script>
+    <!-- <script src="./Scripts/script_46_mapaosm.js"></script> -->
+</body>
+
+</html>

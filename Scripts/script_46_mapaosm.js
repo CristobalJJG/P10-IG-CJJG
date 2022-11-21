@@ -26,7 +26,7 @@ function init() {
 
     //Lectura datos xml
     var loader = new THREE.FileLoader();
-    loader.load("./mapLPGC_MyL.osm", function(text) {
+    loader.load("../OSM/7-palmas.osm", function(text) {
         //Fuente https://www.w3schools.com/xml/xml_parser.asp
         var text, parser, xmlDoc;
         parser = new DOMParser();
